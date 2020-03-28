@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Exemplo 06-05: newtheorem: criando ambientes de teoremas
+% ultima atualizacao: 05/02/2018 por Sadao Massago
+% http:/www.dm.ufscar.br/~sadao
+%----------------------------------------------------
+% EXEMPLO não finalizado
+% talvez utilizar o AMS
+
+\documentclass[12pt,a4paper]{article}
+
+% T1 não é aceito no PCTeX 4.0 ou anterior.
+% Neste caso, comente
+\usepackage[T1]{fontenc} % codificação da fonte em 8-bits
+\usepackage[utf8]{inputenc} % acentuação direta
+\usepackage[brazil]{babel} % em portugues brasileiro
+\usepackage{amsthm}
+
+% \usepackage{theorem} % para configurar o teorema
+\usepackage{amsthm} % para configurar o teorema (do AMS)
+
+% \theoremstyle{plain} % o padrao. Ja esta com este estilo
+
+\newtheorem{thm}{Teorema}[section] % usar contador associado a secao
+\newtheorem{cor}[thm]{Corolário} % usar mesmo contador do thm
+\newtheorem{lem}[thm]{Lema} % usar mesmo contador do thm
+\newtheorem{prop}[thm]{Proposição} % usar mesmo contador do thm
+\newtheorem{axi}[thm]{Axioma} % usar mesmo contador do thm
+
+%\theorembodyfont{\normalfont\upshape} % agora, nao eh mais fonte italico
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definição} % usar mesmo contador do thm
+\newtheorem{ex}[thm]{Exemplo} % usar mesmo contador do thm
+
+\newtheorem{exerc}{Exercício}[section] % usar contador associado a secao
+
+\theoremstyle{remark}
+\newtheorem{obs}[thm]{Observação} % Observação
+\newtheorem{TESTE}{Definicão}
+% ambiente de demonstração
+%\newenvironment{dem}[1][Demonstração]{\textbf{#1:}\ }  {\hfill\rule{1ex}{1ex}}
+% amsthm ja tem ambiente definido chamado proof
+%------------------------------------------------------------------------------
+% regra de hifenização das palavras nao acentuadas:
+% nao requer \usepackage[T1]{fontenc}
+\hyphenation{li-vro tes-te cha-ve bi-blio-te-ca}
+% regra de hifenização das palavras acentuadas:
+% requer \usepackage[T1]{fontenc}
+\hyphenation{co-men-t\'a-rio re-fe-r\^en-cia}
+
+\begin{document}
+
+\section{Teorema de Pitágoras}
+
+\subsection{Triângulo Retângulo}
+O ambiente similar a demonstração pode ser criado pelo \texttt{newtheorem}. Assim, ele será enumerada automaticamente e poderá controlar o estilo dele, usando o pacote \texttt{amsthm} (melhor do que o pacote \texttt{theorem}).
+
+Os ambientes ``theorem like'' abaixo  são exemplos destes.
+
+\begin{defn}[Triângulo Retângulo]
+  Um triângulo $\Delta ABC$ é dito \emph{triângulo retângulo} quando um dos vêrtices 
+  apresenta ângulo reto.
+\end{defn}
+
+\subsection{Resultados}
+\begin{thm}[Pitagoras]
+  Sejam $\Delta ABC$, um triângulo retângulo onde $a$ onde $a$ é hipotenusa. Então
+  \[ a^2=b^2+c^2 \] 
+\end{thm}
+
+\begin{proof}
+  ...
+\end{proof}
+
+\begin{cor}
+ Seja $\Delta ABC$, o triângulo retângulo com hipotenusa $a$. Então $a > b+c$
+\end{cor}
+
+\begin{proof}
+  ...
+\end{proof}
+
+\begin{obs}
+Observação aqui...
+\end{obs}
+
+\subsection{Aplicações}
+
+Colocar aplicações aqui.
+
+\subsection{Exercícios}
+
+\begin{exerc}
+  Prove que o triângulo com lados $3,4$ e $5$ é retângulo.
+\end{exerc}
+\begin{exerc}
+  Prove que a altura do triângulo equilátero com lado $l$ é $\frac{\sqrt{2}}{2}$.
+\end{exerc}
+
+\end{document} % final do documento
