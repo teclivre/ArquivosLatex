@@ -1,0 +1,8 @@
+\babel@toc {english}{}
+\babel@toc {brazilian}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}IMAGENS}{3}
+\contentsline {section}{REFER\IeC {\^E}NCIAS}{4}
