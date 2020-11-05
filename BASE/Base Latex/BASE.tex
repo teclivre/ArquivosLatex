@@ -11,13 +11,14 @@
 \usepackage{graphicx}
 \usepackage[brazilian, english]{babel}
 \usepackage{fancyhdr}
-\usepackage{amsmath, amsfonts, amssymb}ex
-
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{xcolor}
+\usepackage{xwatermark}
 \usepackage{epigraph}
 \usepackage{tabularx}
 \usepackage{abstract}
 \usepackage{subfig}
-
+\usepackage{emptypage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%  USADO PARA PRODUZIRMOS UMA CAPA PARA O ARTIGO %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31,36 +32,62 @@
 
 
 %% INÍNCIO DO ARTIGO %%
-
+\newwatermark[allpages]{\includegraphics[scale=0.7]{backgroud-logo-rm}}
 \begin{document}
 
 \graphicspath{{imagens/}{referencias/}{logo/}}  %% Referenciando subpastas no arquivo %%
-
+\pagestyle{fancy} 
 %% ESPAÇO DIDICADO À AGRADECIMENTOS, RESUMO E ABSTRACT %%
 
 \begin{titlepage}
+\centering
+\begin{Large}
+ \underline{\textbf{PORTFÓLIO PRESTAÇÃO DE SERVIÇOS}}
+ \end{Large} 
+\begin{center}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=0.4,opacity=0.8]{logo-completo-rm-facilities}
+\end{figure}
+\end{center}
+\begin{huge}
+\underline{Produtos}
+\end{huge} \vspace{2cm}
 
-\selectlanguage{brazilian}
-\begin{abstract}
-Texto em Português
-\end{abstract}
-\begin{footnotesize}
-\textbf{Palavras-chave:} \textit{Palavras-chave}
-\end{footnotesize}
-\newpage
+\begin{LARGE}
+\underline{\textbf{ MÃO DE OBRA}} 
+\end{LARGE}
+\vspace{1cm}
+
+\begin{LARGE}
+\underline{\textbf{ QUALIFICADA}}
+\end{LARGE}
+\vspace{4cm}
+
+\centering
+CONHEÇA-NOS MELHOR COMEÇANDO POR
+\textbf{AQUI!}
+
+\vspace{2.6cm}
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{endereço-portifólio}
+\end{figure}
+
+\end{center}
 
 \end{titlepage}
 
-\begin{titlepage}
+%\begin{titlepage}
 
-\selectlanguage{english}
-\begin{abstract}
- Text in English
-\end{abstract}
-\begin{footnotesize}
-\textbf{keywords:} \textit{key words}
-\end{footnotesize}
-\newpage
+%\selectlanguage{english}
+%\begin{abstract}
+ %Text in English
+%\end{abstract}
+%\begin{footnotesize}
+%\textbf{keywords:} \textit{key words}
+%\end{footnotesize}
+%\newpage
 
 %\begin{center}
 %\textbf{Agradecimentos}
@@ -68,7 +95,7 @@ Texto em Português
 
 %Agradecimentos aqui!
 
-\end{titlepage}
+%\end{titlepage}
 
 %% EPÍGRAFE DO ARTIGO %%
 \begin{titlepage}
@@ -81,24 +108,24 @@ Texto em Português
 
 
 %%  SUMÁRIO  %%
-\selectlanguage{brazilian}
-\tableofcontents \newpage  %% ESTE COMANDO ABILITA O SUMÁRIO NO ARTIGO  %% 
+%\selectlanguage{brazilian}
+%\tableofcontents \newpage  %% ESTE COMANDO ABILITA O SUMÁRIO NO ARTIGO  %% 
 
 %%  LISTA DE FIGURAS E TABELAS %%
 
-\listoffigures
+%\listoffigures
 %\listoftables
-\newpage
+%\newpage
 
 %  Comando para a insersão da capa neste ponto do artigo  $$
 %\maketitle
 
 %% LOGOTIPO NO CABEÇALHO %%
-\pagestyle{fancy} \newpage
-\lhead{\includegraphics[width=1cm]{logo_anhanguera}}
-
+\pagestyle{fancy} 
+\lhead{\includegraphics[width=4cm]{logo-completo-rm-facilities}}
+\rhead{PORTFÓLIO PRESTAÇÃO DE SERVIÇOS}
 %% NOTAS DE RODAPÉ %%
-\rfoot{\begin{small}Roda pé \end{small}}
+\rfoot{\begin{small}rmfacilities.com.br\end{small}}
 \lfoot{}
 
 
@@ -110,8 +137,8 @@ Texto em Português
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section{IMAGENS}
-
+\section*{}
+%\maketitle
 %% Inclusão de Figuras %%
 
 

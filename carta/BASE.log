@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.23)  4 OCT 2020 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.23)  2 NOV 2020 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@section=\count168
@@ -477,86 +477,25 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count290
 \l__pdf_internal_box=\box54
 )
-(./BASE.aux
-
-LaTeX Warning: Label `figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `sub@figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `sub@figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `fig01' multiply defined.
-
-
-LaTeX Warning: Label `figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `sub@figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `sub@figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `fig01' multiply defined.
-
-
-LaTeX Warning: Label `figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `sub@figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `sub@figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `fig01' multiply defined.
-
-
-LaTeX Warning: Label `figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `sub@figdroopy' multiply defined.
-
-
-LaTeX Warning: Label `figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `sub@figsnoop' multiply defined.
-
-
-LaTeX Warning: Label `fig01' multiply defined.
-
-)
+(./BASE.aux)
 \openout1 = `BASE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -566,23 +505,23 @@ LaTeX Font Info:    ... okay on input line 36.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
 * v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24411pt
+* \textwidth=483.69687pt
 * \textheight=658.28194pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -618,7 +557,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -631,245 +570,86 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 
 (./BASE.out) (./BASE.out)
 \@outlinefile=\write4
 \openout4 = `BASE.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for OT1+bch on input line 5
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1bch.fd
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+)
+<logo/backgroud-logo-rm.png, id=4, 868.54608pt x 651.73608pt>
+File: logo/backgroud-logo-rm.png Graphic file (type png)
+<use logo/backgroud-logo-rm.png>
+Package pdftex.def Info: logo/backgroud-logo-rm.png  used on input line 53.
+(pdftex.def)             Requested size: 426.79134pt x 320.25844pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-                    *** Unknown keys ***
-*Prefix         *Family         *Name           *Value          
-KV              Gin             opacity         0.8             
-                    *******************
-
-! Package ltxkeys Error: The above keys are undefined and couldn't be set.
-
-See the ltxkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 ...,opacity=0.8]{logo-completo-rm-facilities}
-                                                  
-There are undefined keys; see above.
-
-<logo/logo-completo-rm-facilities.png, id=8, 683.0821pt x 288.64464pt>
-File: logo/logo-completo-rm-facilities.png Graphic file (type png)
-<use logo/logo-completo-rm-facilities.png>
-Package pdftex.def Info: logo/logo-completo-rm-facilities.png  used on input li
-ne 50.
-(pdftex.def)             Requested size: 273.228pt x 115.45581pt.
-<imagens/endereço-portifólio.png, id=10, 579.90144pt x 134.09132pt>
-File: imagens/endereço-portifólio.png Graphic file (type png)
-<use imagens/endereço-portifólio.png>
-Package pdftex.def Info: imagens/endereço-portifólio.png  used on input line 
-74.
-(pdftex.def)             Requested size: 289.95001pt x 67.04549pt.
-
-! LaTeX Error: \begin{titlepage} on input line 42 ended by \end{center}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 \end{center}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Trying to load font information for OT1+bch on input line 7
-9.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1bch.fd
-File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
-)
-<logo/backgroud-logo-rm.png, id=11, 868.54608pt x 651.73608pt>
-File: logo/backgroud-logo-rm.png Graphic file (type png)
-<use logo/backgroud-logo-rm.png>
-Package pdftex.def Info: logo/backgroud-logo-rm.png  used on input line 79.
-(pdftex.def)             Requested size: 607.97812pt x 456.21214pt.
- [1
+) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo/backgroud-logo-rm.p
-ng> <./logo/logo-completo-rm-facilities.png> <./imagens/endereço-portifólio.p
 ng>]
-
-! LaTeX Error: \begin{document} ended by \end{titlepage}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 \end{titlepage}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.79 \end{titlepage}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-File: logo/backgroud-logo-rm.png Graphic file (type png)
-<use logo/backgroud-logo-rm.png>
-Package pdftex.def Info: logo/backgroud-logo-rm.png  used on input line 103.
-(pdftex.def)             Requested size: 607.97812pt x 456.21214pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.103 ...rado Reino de Deus."}}{Emmanuel} \newpage
-                                                   [1]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+<logo/logo-completo-rm-facilities.png, id=13, 667.4091pt x 314.76633pt>
 File: logo/logo-completo-rm-facilities.png Graphic file (type png)
 <use logo/logo-completo-rm-facilities.png>
 Package pdftex.def Info: logo/logo-completo-rm-facilities.png  used on input li
-ne 143.
-(pdftex.def)             Requested size: 113.81102pt x 48.09117pt.
+ne 58.
+(pdftex.def)             Requested size: 56.9055pt x 26.83403pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 52.44121pt.
+Make it at least 30.91406pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 File: logo/backgroud-logo-rm.png Graphic file (type png)
 <use logo/backgroud-logo-rm.png>
-Package pdftex.def Info: logo/backgroud-logo-rm.png  used on input line 143.
-(pdftex.def)             Requested size: 607.97812pt x 456.21214pt.
+Package pdftex.def Info: logo/backgroud-logo-rm.png  used on input line 58.
+(pdftex.def)             Requested size: 426.79134pt x 320.25844pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 
-       [1]
-
-! LaTeX Error: No \title given.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: No \author given.
-
-<imagens/1.jpg, id=34, 427.5975pt x 240.9pt>
-File: imagens/1.jpg Graphic file (type jpg)
-<use imagens/1.jpg>
-Package pdftex.def Info: imagens/1.jpg  used on input line 152.
-(pdftex.def)             Requested size: 202.01479pt x 113.81102pt.
-<imagens/2.jpg, id=35, 613.67554pt x 409.0482pt>
-File: imagens/2.jpg Graphic file (type jpg)
-<use imagens/2.jpg>
-Package pdftex.def Info: imagens/2.jpg  used on input line 157.
-(pdftex.def)             Requested size: 170.74176pt x 113.81102pt.
-<imagens/3.jpg, id=36, 339.2675pt x 225.84375pt>
-File: imagens/3.jpg Graphic file (type jpg)
-<use imagens/3.jpg>
-Package pdftex.def Info: imagens/3.jpg  used on input line 167.
-(pdftex.def)             Requested size: 170.97412pt x 113.81102pt.
-<imagens/4.jpg, id=37, 1284.8pt x 722.7pt>
-File: imagens/4.jpg Graphic file (type jpg)
-<use imagens/4.jpg>
-Package pdftex.def Info: imagens/4.jpg  used on input line 172.
-(pdftex.def)             Requested size: 202.31786pt x 113.81102pt.
-<imagens/5.jpg, id=38, 1003.75pt x 804.00375pt>
-File: imagens/5.jpg Graphic file (type jpg)
-<use imagens/5.jpg>
-Package pdftex.def Info: imagens/5.jpg  used on input line 183.
-(pdftex.def)             Requested size: 142.08627pt x 113.81102pt.
-<imagens/6.jpg, id=39, 676.5275pt x 422.57875pt>
-File: imagens/6.jpg Graphic file (type jpg)
-<use imagens/6.jpg>
-Package pdftex.def Info: imagens/6.jpg  used on input line 188.
-(pdftex.def)             Requested size: 182.20032pt x 113.81102pt.
-<imagens/7.jpg, id=40, 722.7pt x 542.025pt>
-File: imagens/7.jpg Graphic file (type jpg)
-<use imagens/7.jpg>
-Package pdftex.def Info: imagens/7.jpg  used on input line 200.
-(pdftex.def)             Requested size: 151.73839pt x 113.81102pt.
-<imagens/8.jpg, id=41, 654.445pt x 409.53pt>
-File: imagens/8.jpg Graphic file (type jpg)
-<use imagens/8.jpg>
-Package pdftex.def Info: imagens/8.jpg  used on input line 205.
-(pdftex.def)             Requested size: 181.87526pt x 113.81102pt.
-<imagens/9.jpg, id=42, 287.0725pt x 205.76875pt>
-File: imagens/9.jpg Graphic file (type jpg)
-<use imagens/9.jpg>
-Package pdftex.def Info: imagens/9.jpg  used on input line 215.
-(pdftex.def)             Requested size: 158.77957pt x 113.81102pt.
-File: imagens/1.jpg Graphic file (type jpg)
-<use imagens/1.jpg>
-Package pdftex.def Info: imagens/1.jpg  used on input line 220.
-(pdftex.def)             Requested size: 202.01479pt x 113.81102pt.
-File: logo/backgroud-logo-rm.png Graphic file (type png)
-<use logo/backgroud-logo-rm.png>
-Package pdftex.def Info: logo/backgroud-logo-rm.png  used on input line 233.
-(pdftex.def)             Requested size: 607.97812pt x 456.21214pt.
-[2 <./imagens/1.jpg> <./imagens/2.jpg> <./imagens/3.jpg> <./imagens/4.jpg>]
-(./BASE.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-File: logo/logo-completo-rm-facilities.png Graphic file (type png)
-<use logo/logo-completo-rm-facilities.png>
-Package pdftex.def Info: logo/logo-completo-rm-facilities.png  used on input li
-ne 242.
-(pdftex.def)             Requested size: 113.81102pt x 48.09117pt.
-File: logo/backgroud-logo-rm.png Graphic file (type png)
-<use logo/backgroud-logo-rm.png>
-Package pdftex.def Info: logo/backgroud-logo-rm.png  used on input line 242.
-(pdftex.def)             Requested size: 607.97812pt x 456.21214pt.
- [3 <./imagens/5.jpg> <./imagens/6.jpg> <./imagens/7.jpg> <./imagens/8.jpg> <./
-imagens/9.jpg>]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 242.
- (./BASE.xwm) (./BASE.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+l.58 \end{document}
+                    [1 <./logo/logo-completo-rm-facilities.png>]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 58.
+ (./BASE.xwm)
+(./BASE.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `BASE.out' has not changed.
-(rerunfilecheck)             Checksum: D58BFAF80EDB5CFF172AB6706EC90EE1;56.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 13448 strings out of 481239
- 216468 string characters out of 5920377
- 541405 words of memory out of 5000000
- 28458 multiletter control sequences out of 15000+600000
- 548041 words of font info for 83 fonts, out of 8000000 for 9000
+ 13273 strings out of 481239
+ 214116 string characters out of 5920377
+ 535950 words of memory out of 5000000
+ 28325 multiletter control sequences out of 15000+600000
+ 537645 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,17n,68p,264b,918s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BASE.pdf (5 pages, 3467287 bytes).
+ 67i,16n,68p,222b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on BASE.pdf (2 pages, 152905 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 25 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

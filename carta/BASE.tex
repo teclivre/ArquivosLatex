@@ -1,0 +1,58 @@
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%                                      %%
+  %%AQUI SÃO INSERIDOS OS PACOTES DO LATEX%%
+  %%                                      %%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nonstopmode
+\def\lastedit{2010-03-16 18:02:39 by stolfi}  
+\documentclass[a4paper, 11pt]{article}
+\usepackage[top=3cm, botton=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[brazilian, english]{babel}
+\usepackage{fancyhdr}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{xcolor}
+\usepackage{xwatermark}
+\usepackage{epigraph}
+\usepackage{tabularx}
+\usepackage{abstract}
+\usepackage{subfig}
+\usepackage{emptypage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  USADO PARA PRODUZIRMOS UMA CAPA PARA O ARTIGO %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                               
+%\documentclass{ufpethesis}
+%\title{Aqui é o título}
+%\author{Nome do autor}
+%\date{2015}
+
+
+\graphicspath{{imagens/}{referencias/}{logo/}}  %% Referenciando subpastas no arquivo %%
+\pagestyle{fancy} 
+\newwatermark[allpages]{\includegraphics[width=15cm]{backgroud-logo-rm}}
+%% ESPAÇO DIDICADO À
+
+\pagestyle{fancy} 
+\lhead{\includegraphics[width=2cm]{logo-completo-rm-facilities}}
+\rhead{\begin{small} CONTRATO DE PRESTAÇÃO DE SERVIÇO \end{small}}
+
+%% INÍNCIO DO ARTIGO %%
+\newcommand{\Sign}[1]{\vspace{2em}\noindent Atenciosamente,\\ Roberio Figueiredo \vspace{0.5em}}
+\newcommand{\Em}{Coshman}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                            %%%
+%%% INÍCIO DO CORPO DO ARTIGO, %%%
+%%%                            %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+\Em 
+\end{titlepage}
+
+
+\Sign{Roberio Figueiredo}
+
+\end{document}
